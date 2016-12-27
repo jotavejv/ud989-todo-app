@@ -279,7 +279,12 @@ label[for='toggle-all'] {
 
 #todo-list li.completed label {
 	color: #a9a9a9;
-	text-decoration: line-through;
+
+}
+#todo-list li.completed label small {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 12px;
 }
 
 #todo-list li.priority:not(.completed) label {
